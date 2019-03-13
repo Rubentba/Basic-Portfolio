@@ -43,10 +43,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
 
 body {
     background-image: url(../images/prism.png);
     margin: 0;
+    color: #777;
 }
 
 img {
@@ -58,7 +71,7 @@ img {
     background-color: #4aaaa5;
     width: 15%;
     height: 75px;
-    color: white;
+    color: #fff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: fixed;
     left: 10%;
@@ -66,11 +79,12 @@ img {
 }
 
 header {
-    background-color: white;
+    background-color: #fff;
     height: 75px;
     width: 100%;
     position: absolute;
-    top: 0
+    top: 0;
+    margin-bottom: 30px;
 }
 
 
@@ -95,5 +109,23 @@ header {
     position: fixed;
     right: 20%;
     border-left: grey solid 1px;
-    
+}
+
+section {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    padding-top: 80px;
+    background-color: white;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    border-top: solid 5px;
+    border-color: #4aaaa5;
+    color: rgb(165, 163, 163);
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
