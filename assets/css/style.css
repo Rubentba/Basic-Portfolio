@@ -59,7 +59,13 @@ table {
 body {
     background-image: url(../images/prism.png);
     margin: 0;
-    color: #777;
+    color: #777;\
+    position: absolute;
+}
+
+.wrapper{
+    position: relative;
+    padding-bottom: 10px;
 }
 
 img {
@@ -82,13 +88,19 @@ header {
     background-color: #fff;
     height: 75px;
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 0;
     margin-bottom: 30px;
 }
 
+.aboutMe {
+ border-bottom: solid #777 1px;
+ padding: 0;
+ padding-top: 5px;
+}
 
 #aboutBtn {
+    clear: both;
     float: right;
     padding: 5px;
     position: fixed;
@@ -126,6 +138,6 @@ footer {
     color: rgb(165, 163, 163);
     height: 50px;
     width: 100%;
-    position: absolute;
+    position: realtive;
     bottom: 0;
 }
