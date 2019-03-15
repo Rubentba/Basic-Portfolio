@@ -65,7 +65,9 @@ body {
 
 .wrapper{
     position: relative;
-    padding-bottom: 10px;
+    background: #fff;
+    width:960px;
+    left: 160px;
 }
 
 img {
@@ -84,12 +86,12 @@ img {
     text-align: center;
 }
 
-header {
+nav {
     background-color: #fff;
     height: 75px;
     width: 100%;
     position: relative;
-    top: 0;
+    top: -15px;
     margin-bottom: 30px;
 }
 
@@ -97,6 +99,7 @@ header {
  border-bottom: solid #777 1px;
  padding: 0;
  padding-top: 5px;
+
 }
 
 #aboutBtn {
@@ -138,6 +141,6 @@ footer {
     color: rgb(165, 163, 163);
     height: 50px;
     width: 100%;
-    position: realtive;
-    bottom: 0;
+    position: relative;
+    bottom: -15px;
 }
