@@ -1,146 +1,116 @@
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-* {
-    box-sizing: border-box;
-}
-
-
-
-
-
-
-
-
-
-
 body {
     background-image: url(../images/prism.png);
-    margin: 0;
     color: #777;
-    position: absolute;
+    margin: 0 auto 0 auto;
 }
 
-.wrapper{
-    position: relative;
-    background: #fff;
-    width:960px;
-    left: 160px;
+html, body{
+    height: 100%;
+    margin: 0;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+header { background: #fff; }
+
+header::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 30px;
+  }
+
+.container {
+    width: 75%;
+    margin: 0 auto;
 }
+
+nav { float: right; }
 
 .name {
     background-color: #4aaaa5;
-    width: 15%;
-    height: 75px;
+    width:200px;
+    height: 70px;
     color: #fff;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    position: fixed;
-    left: 10%;
     text-align: center;
+    float: left;
 }
 
-nav {
-    background-color: #fff;
-    height: 75px;
-    width: 100%;
-    position: relative;
-    top: -15px;
-    margin-bottom: 30px;
+h2 { margin-top: 8px; }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.aboutMe {
- border-bottom: solid #777 1px;
- padding: 0;
- padding-top: 5px;
-
+li { 
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 25px;
 }
 
-#aboutBtn {
-    clear: both;
-    float: right;
-    padding: 5px;
-    position: fixed;
-    right: 30%;
+a {
+    color: #777;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-#portfolioBtn {
-    float: right;
-    padding: 5px;
-    position: fixed;
-    right: 25%;
-    border-left: grey solid 1px;
-}
+a:hover { color: black }
 
-#contactBtn {
-    float: right;
-    padding: 5px;
-    position: fixed;
-    right: 20%;
-    border-left: grey solid 1px;
-}
-
-section {
+.wrapper{
+    background: #fff;
     width: 960px;
-    margin: 0 auto 0 auto;
-    padding-top: 80px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -50px;
+    padding-bottom: 20px;
+}
+
+.aboutMe { margin-bottom: 20px; }
+
+.aboutMe::after {
+    content: "";
+    display: block;
+    margin: 0 auto; 
+    width: 95%;
+    border-bottom: 1px solid rgb(165, 163, 163);
+}
+
+h1 {
+    padding: 20px;
+    margin: 0;
+    color: #4aaaa5
+}
+
+#textBody {
+    width: 960px;
     background-color: white;
 }
+
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 0 20px 20px 30px;
+}
+
+body > .wrapper > .textBody > p { 
+    font-size: 18px;
+    max-width: 900px; 
+    padding: 25px 25px 0 25px;
+}
+
+.empty { height: 50px; }
 
 footer {
     background-color: #666666;
     text-align: center;
     border-top: solid 5px;
     border-color: #4aaaa5;
-    color: rgb(165, 163, 163);
+    color: rgb(199, 197, 197);
     height: 50px;
     width: 100%;
-    position: relative;
-    bottom: -15px;
+    margin-top: 30px
 }
+
+footer > p { margin-top: 30px}
