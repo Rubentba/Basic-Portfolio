@@ -153,30 +153,45 @@ input {
     display: table;
 }
 
-.imgLinks {
+.imgContainer {
     width: 250px;
     height: 250px;
     margin: 40px 20px;
-    background-color: pink;
+    position: relative;
 }
 
 #HM {
     float: left;
+    background-color: #4aaaa5;
+    color: #777;
+    position: absolute;
 }
 
 #RPG  {
     float: left;
+    background-color: #4aaaa5;
+    color: #777;
+    position: absolute;
 }
 
 #TG {
     float: left;
+    background-color: #4aaaa5;
+    color: #777;
+    position: absolute;
 }
 
 #RIW {
     clear: both;
     float: left;
+    background-color: #4aaaa5;
+    color: #777;
+    position: absolute;
 
 }#RPS {
 
     float: left;
+    background-color: #4aaaa5;
+    color: #777;
+    position: absolute;
 }
