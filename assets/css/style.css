@@ -147,3 +147,36 @@ input {
 }
 
 /*CSS for Portfolio.html */
+.wrapper::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imgLinks {
+    width: 250px;
+    height: 250px;
+    margin: 40px 20px;
+    background-color: pink;
+}
+
+#HM {
+    float: left;
+}
+
+#RPG  {
+    float: left;
+}
+
+#TG {
+    float: left;
+}
+
+#RIW {
+    clear: both;
+    float: left;
+
+}#RPS {
+
+    float: left;
+}
