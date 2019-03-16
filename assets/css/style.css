@@ -68,7 +68,7 @@ a:hover { color: black }
 
 .aboutMe { margin-bottom: 20px; }
 
-.aboutMe::after {
+.headingText::after {
     content: "";
     display: block;
     margin: 0 auto; 
@@ -113,4 +113,37 @@ footer {
     margin-top: 30px
 }
 
+/* CSS for contact.html */
 footer > p { margin-top: 25px}
+
+.inputs { padding: 20px; }
+
+input {
+    margin-bottom: 20px;
+}
+
+#inputName {
+    width: 100%;
+}
+
+#inputEmail {
+    width: 100%;
+}
+
+#inputMessage {
+    width: 100%;
+    padding-bottom: 300px;
+}
+
+#buttonSubmit {
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+}
+
+/*CSS for Portfolio.html */
