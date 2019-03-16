@@ -157,28 +157,28 @@ input {
     width: 250px;
     height: 250px;
     margin: 40px 20px;
-    position: relative;
+    position: absolute;
 }
 
 #HM {
     float: left;
     background-color: #4aaaa5;
     color: #777;
-    position: absolute;
+    position: relative;
 }
 
 #RPG  {
     float: left;
     background-color: #4aaaa5;
     color: #777;
-    position: absolute;
+    position: relative;
 }
 
 #TG {
     float: left;
     background-color: #4aaaa5;
     color: #777;
-    position: absolute;
+    position: relative;
 }
 
 #RIW {
@@ -186,12 +186,12 @@ input {
     float: left;
     background-color: #4aaaa5;
     color: #777;
-    position: absolute;
+    position: relative;
 
 }#RPS {
 
     float: left;
     background-color: #4aaaa5;
     color: #777;
-    position: absolute;
+    position: relative;
 }
